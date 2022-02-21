@@ -1,0 +1,14 @@
+1. (1.5 points) Please classify each of the following as a violation of confidentiality, of integrity, of authenticity (each case has just one violation).
+1) Carol changes the amount of Angelo's check from $100 to $1000.
+2) Gina forges Roger's signature on a deed.
+3) John reads Mary’s email.
+2. (1.5 points) Find a text string whose md5 checksum is 3899dcbab79f92af727c2190bbd8abc5. The original string is composed of all lower-case English letters (just need to submit the string).
+3. (1.5 points) Assume a good 128-bit hash function. Assume there is a particular value, d, and you'd like to find an input message that has a has value of d. Given that there are many more 2000-bit messages that map to a particular 128-bit hash value than 1000-bit messages, would you theoretically have to test fewer 2000-bit messages to find one that has a hash value of d than if you were to test 1000-bit messages? (answer yes or no, then provide brief explanation)
+4. (1.5 points) In RSA, given that the primes p and q are approximately the same size, approximately how big is φ(n) compared to n?
+5. (4 points) Generate a set of GnuPG private/public keys (selecting RSA) for yourself (if you do not have one already). Create a file "firstname_hw1_pgp.txt" that contains your email, as listed in your PGP key, followed by a new line, followed by your first name, followed by a new line, followed by the string "CS 6349 Spring 2022", followed by a newline.
+Encrypt the txt file with the class' public key, "cs6349_pgp.pub" attached with the assignment. Sign the encrypted message using your secret key (ASCII armored output).
+For the submission, upload on eLearning (1) your public PGP key "firstname_hw1_pgp.pub" with your first name in the file name (2) plain txt file "firstname_hw1_pgp.txt" (3) encrypted txt file "firstname_hw1_pgp.en.txt" (4) signature of the encrypted txt file "firstname_hw1_pgp.en.txt.asc".
+Example files (attached with the assignment):  
+   plain txt file: hw1_pgp.txt
+   encrypted file: hw1_pgp.en.txt
+   signature of the encrypted file: hw1_pgp.en.txt.asc
